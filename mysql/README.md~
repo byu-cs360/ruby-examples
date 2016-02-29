@@ -1,0 +1,27 @@
+======================================================================
+Example Ruby scripts showing how to use the MySQL/Ruby module to
+access a MySQL database.
+
+For more information on this interface, see:
+
+http://tmtm.org/en/mysql/ruby/
+http://www.kitebird.com/articles/ruby-mysql.html
+
+To use this module, you need to install it using the instructions
+found at:
+
+http://ilab.cs.byu.edu/cs360/2010w/rubyrails.html
+
+======================================================================
+
+Contents:
+
+1) test.rb - Test whether you can connect to your database using the
+MySQL/Ruby module.
+
+Note: You need to install the Highline GEM.  See the above instructions.
+
+This gem allows you to read a password from standard input, while printing
+a "*" for each character typed.
+
+2) query.rb - Example showing how to issue a query
